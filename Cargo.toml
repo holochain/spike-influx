@@ -5,6 +5,6 @@ edition = "2021"
 
 [dependencies]
 influxdb = "0.7.0"
-tokio = { version = "1.29.1", features = ["full"] }
+tokio = { version = "1.29.1", features = [ "full" ] }
 tracing = "0.1.37"
-ts_opentelemetry = "0.20.0-beta.1"
+opentelemetry = { git = "https://github.com/open-telemetry/opentelemetry-rust.git", rev = "1f1a4fe0540b5df92b7cf5b289d6e89c2e1c02a8", features = [ "metrics" ] }
