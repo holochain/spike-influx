@@ -6,4 +6,4 @@
 
 it should be injecting a metric once per second, you can make a query like the following:
 
-![./influxdb.png]
+![image](./influxdb.png)
